@@ -46,11 +46,10 @@
                 return("Invalid input. Please enter 'rock', 'paper' or 'scissors'.");
             }
         }
-        for (let i =0; i<=5;i++){
-            let playerSelection = prompt('your Choice:');
-            const computerSelection = getComputerChoice();
-            console.log(playRound(playerSelection, computerSelection));
-        }
+
+        let playerSelection = prompt('your Choice:');
+        const computerSelection = getComputerChoice();
+        console.log(playRound(playerSelection, computerSelection));
         
     </script>
 </body>
